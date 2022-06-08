@@ -232,6 +232,9 @@ class _HomeCalendarState extends State<HomeCalendar> {
 
                             startingDayOfWeek: StartingDayOfWeek.monday,
                             // daysOfWeekVisible: true,
+                            // onPageChanged: (focusedDay) {
+                            //   _focusedDay = focusedDay;
+                            // },
                             onPageChanged: (focusedDay) {
                               _focusedDay = focusedDay;
                             },
